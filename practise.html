@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      //how to convert arry into object
+      let arr = [1,"hello",3];
+// to convert  array into an object we can use the following method: Object.assign({},arr) or {
+     console.log(Object.assign({},arr));
+     // how to access elements of array using index in javascript
+     console.log("Accessing element by its index : ",arr[2]);
+
+     //how to check if a value is present in array or not?
+     console.log("Is 3 present in array? ",arr.includes(3));
+
+     //How to get the first occurrence of a specific value from array?
+     console.log("First Occurrence of hello in array : ",arr.indexOf('hello'));
+    
+     // How to remove duplicate values from array ?
+     let uniqueArr = [...new Set(arr)];
+     console.log("Array after removing duplicates : ",uniqueArr);
+     //Sorting Arrays in JavaScript
+     console.log("Original Array : ",arr);
+     arr.sort((a,b)=>a-b);
+     console.log("Sorted Array : ",arr);
+
+    // how to convert  array into string format
+    var str = arr.join(",");
+    console.log("Converted Array into String Format : ",str);
+    // how to convert   string into array format
+    var new_array = str.split(',');
+    console.log("Converted String into Array Format : ",new_array);
+    // how to convert from object  to array
+    let obj={name:"John",age:30};
+    let key = Object.key(obj)
+    let val = Object.values(obj)
+    console.log("Key and Value of the Object : ",key ,val);
+    let number = Object.enties(obj)
+    // enties will give all the value of object
+    console.log("Number of Entries in the Object : ",number);
+    //operator
+     let numbers =[1,2,3,45,60]
+     let no = number.slice(0, 3)
+     console.log("Slicing the array : ",no)
+     
+
+   
+    
+
+    
+
+
+
+      
+        
+    </script>
+</body>
+</html>

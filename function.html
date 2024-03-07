@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+    
+    let no= [4, 6 ,8,2]
+    function add(arry){
+    for(let i = 0; i<arry.length;i++){
+        console.log(arry[i])
+
+    }
+    
+}
+add(no)
+// generating simple randam no
+
+
+function random(no){
+    let noi = []
+    for(let i=0; i<no;i++){
+        let numbers =Math.floor(Math.random()*no)
+        // genersting randam number
+      noi.push(numbers)
+// pushing number
+    }
+   return noi
+
+}
+let rand = 10; 
+
+
+console.log(random(rand));
+
+// how to check no with if condition
+
+ function checksum(arry, sum ){
+  // sending parameter as function
+  for(let i =0; i<arry.length;i++){
+    // looping arry length 
+    if(arry[i]=== sum){
+      //checking number
+      return true
+    }
+  }
+  return false
+
+ }
+ checksum([1, 2, 3, 4],5)
+ // calling function
+
+
+// datatypes
+// new codes should have  use "use Strict" // treat all Js code as newer version
+// alert("hello")
+
+// about readlability mdn  orignial "tc369es" is the name of the committee that created ECMAScript
+
+let name ="ujwal"//string
+
+let age = 18// number
+
+let isLOGIN = true // boolen is o or one 0 is false || 1 is true 
+
+let  nam = null // stanlone value  restrotation of empty value{typeof will object}
+
+let state; // undfine output typeof(unefine)
+            // symbol is unique
+            // this is premative data type
+            // to know the value of ("type of")
+//
+
+ let score = "33abc" // will give nan // some time we dnt know the value of  we it comming from 
+ // if we put it into sting and we want to change
+ 
+ let number = "33"
+ 
+ let n = Number(number)// this will give u number
+ console.log( typeof(number))
+
+
+  
+  let islogIN= 1
+  let empty ="" // if convert empty string to  boolen it will be false
+  let lgin = Boolean(islogIN)
+  console.log(lgin);
+
+  
+
+  const num = ()=>{
+    return
+  }
+  // if it is within curlybraces we need to write written key world{}
+  // but without paranthesise() we dnt need to write return to return object or arry({})([])
+
+  const noo = (a,b)=>(a+b)
+ 
+  </script>
+</body>
+</html>
