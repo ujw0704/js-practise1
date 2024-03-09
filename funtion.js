@@ -155,7 +155,7 @@ console.log(sume([3,4,5,6]));
 function string (str){
     newstr= ""
     for(let i =0; i <str.length;i++){
-     console.log( typeof str[i])
+     console.log(  str[i])
      if(str[i]!= undefined){
         newstr+=(str[i])
       } else{
@@ -172,5 +172,28 @@ function string (str){
 console.log(string(strings))
 
 //Write a function that sorts an array of numbers in ascending order. 
+
+let number =[1, 2, 4, 5, 7, 8, 9, 10 , 12, 7]
+
+for(let i=0;i<number.length;i++){
+
+    for(let j = i + 1; j < number.length; j++){
+        // console.log(number[i])
+        if(number[i]>number[j]){
+            // console.log(number[i]>number[j])
+            let newaary=number[i]
+             number[i]=number[j]
+             number[j]= newaary
+
+               
+        }
+
+        }
+    }
+    console.log(numbers)
+    let newno = number.flat(number)
+    console.log(newno)
+
+
 
 // Implement a function to remove duplicates from an array.

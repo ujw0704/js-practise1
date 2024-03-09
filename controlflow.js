@@ -24,7 +24,20 @@ if(isuserLoggin){
     }
 
     //falsey value  false bignit  empty string  undefined and null nan
+    //truthy value "0 "false" " " [] {} function (){}
 
+    // how to check array and object 
+    let check = []
+
+    if(check.length===0){
+        console.log("check is empty")
+
+    }
+    let object ={}
+    if(Object.keys(object).length ===0){
+        console.log(object)
+    }
+// nullish ?? null
 
 
     
