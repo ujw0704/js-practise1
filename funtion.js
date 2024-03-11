@@ -197,3 +197,7 @@ for(let i=0;i<number.length;i++){
 
 
 // Implement a function to remove duplicates from an array.
+
+
+
+// Write a JavaScript program to convert a string to title case (capitalize the first letter of each word). 
