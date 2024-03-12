@@ -221,7 +221,18 @@ console.log(dubs(dublicate))
 
 // Write a JavaScript program to convert a string to title case (capitalize the first letter of each word).
 
+let nam ="my name is ujwal"
 
+function newwords(n){
 
-
-// Write a function that takes an array of integers and returns the largest difference between any two numbers in the array. 
+    let newvalue = n.split(" ")
+    let result =[]
+    for(let i = 0 ;i<newvalue.length;i++){
+        if(newvalue[i].length>1){
+        result.push(newvalue[i].substring(0,1).toUpperCase()+newvalue[i].substring(1))
+        }
+        
+    }
+    return result.join(" ")
+}
+console.log(newwords(nam))
