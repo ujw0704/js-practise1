@@ -236,3 +236,35 @@ function newwords(n){
     return result.join(" ")
 }
 console.log(newwords(nam))
+
+
+// reduce
+
+const mynumbs = [1, 2, 3]
+
+const total = mynumbs.reduce((acc, current)=>{
+return acc+current
+},0)
+console.log(total)
+
+
+const shoopincart = [
+    {
+        itemname :"js course",
+        price:"299"
+    },
+    {
+        itemname :"ai course",
+        price:"299"
+    },
+    {
+        itemname :"ux course",
+        price:"299"
+    },
+    {
+        itemname :"ui course",
+        price:"299"
+    },
+]
+const shoptotal =shoopincart.reduce((acc,item)=>acc+item.price,0)
+console.log(shoptotal)
