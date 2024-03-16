@@ -48,19 +48,23 @@ function toTitleCase(str) {
 
 //   Given a string, write a function to count the occurrences of each character in the strin?\
 
-function str(count){
+function countCharacterOccurrences(str) { 
 
-   for(let i=0; i<count.length;i++){
-    if(count.length>=1){
-     console.log( count[i])
-    count+1
-   
-    }   
-    
-    
-    return count      
-  }
+  const charCount = {}; 
 
+  for (let char of str) { 
 
+    charCount[char] = (charCount[char] || 0) + 1; 
+
+  } 
+
+  return charCount; 
+
+} 
+console.log(countCharacterOccurrences("ujwal sharma"))
+//Write a function that returns the sum of all numbers in an array. 
+
+function sum(newsum){
+ return newsum.reduce((newsum,arry) =>newsum+arry,0)
 }
-console.log(str( typeof"ujwal "))
+console.log(sum([4+5]))
