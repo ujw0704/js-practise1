@@ -47,3 +47,20 @@ function toTitleCase(str) {
    console.log(news("kushal"))
 
 //   Given a string, write a function to count the occurrences of each character in the strin?\
+
+function str(count){
+
+   for(let i=0; i<count.length;i++){
+    if(count.length>=1){
+     console.log( count[i])
+    count+1
+   
+    }   
+    
+    
+    return count      
+  }
+
+
+}
+console.log(str( typeof"ujwal "))
