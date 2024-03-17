@@ -99,3 +99,25 @@ function weight(ball){
  let balls =[1, 2, 3, 4, 5,6,7,8,9]
 
 console.log(weight(balls))
+
+//comparing two object
+obj1={
+  name:"ujwal",
+  work:"nothing",
+  country:"india"
+}
+
+obj2={
+  name:"kushal",
+  work:"project manager",
+  country:"canada",
+}
+
+function one (obj1, obj2){
+return JSON.stringify(obj1)===JSON.stringify(obj2)
+    
+  }
+
+
+
+console.log(one(obj1, obj2))
