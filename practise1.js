@@ -68,3 +68,34 @@ function sum(newsum){
  return newsum.reduce((newsum,arry) =>newsum+arry,0)
 }
 console.log(sum([4+5]))
+
+
+// Write a JavaScript program to remove false values from a given array.
+let aty = [1, 2, 3, 4, 5, 6, 7]
+let newarr =[]
+for(let i = 0 ; i<aty.length;i++){
+  if(aty[i]){
+   newarr.push(aty)
+  }
+}
+
+console.log(newarr)
+
+
+// we have egiht ball one ball is less in weight  create a function 
+function weight(ball){
+    let lessweight = 0
+  for(let i= 0; i<ball.length;i++){
+    console.log(ball[i])
+    if(ball[i]<ball.length){
+      let newball =ball[i]
+      
+      
+      }
+
+    }
+    return lessweight
+  }
+ let balls =[1, 2, 3, 4, 5,6,7,8,9]
+
+console.log(weight(balls))
