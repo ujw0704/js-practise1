@@ -280,4 +280,4 @@ function one(){
         return 4*4
 }
 let a =(one(), two())
-console.log(a)
+console.log(a) // This out will be 16 beacuse js read left to right
