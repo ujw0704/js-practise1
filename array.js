@@ -77,8 +77,39 @@ console.log(person)
 //json dosnt hold name it can be direcltly return
 
 
+//A JavaScript array's length property and numerical properties are connected.
+
+// Several of the built-in array methods (e.g., join(), slice(), indexOf(), etc.) take into account the value of an array's length property when they're called.
+
+// Other methods (e.g., push(), splice(), etc.) also result in updates to an array's length property.
 
 
+
+const fruits = [];
+fruits.push("banana", "apple", "peach");
+console.log(fruits.length); // 3
+
+
+// The following methods create new arrays by accessing this.constructor[Symbol.species] to determine the constructor to use: concat(), filter(), flat(), flatMap(), map(), slice(), and splice() (to construct the array of removed elements that's returned).
+
+
+// Mutating method   	Non-mutating alternative
+// copyWithin()  	No one-method alternative
+// fill()	         No one-method alternative
+// pop()	       slice(0, -1)
+// push(v1, v2)	    concat([v1, v2])
+// reverse()	   toReversed()
+// shift()	       slice(1)
+// sort()	       toSorted()
+// splice()	        toSpliced()
+// unshift(v1, v2)	   toSpliced(0, 0, v1, v2)
+
+ // what is maution arry and non mutating arry?
+
+//  mautation methods will changes and mutate orginal array 
+
+// non- mutation
+// will  return a new value but will give a copy of the new value instead of changing in orginal array
 
 
 

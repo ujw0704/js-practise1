@@ -268,3 +268,16 @@ const shoopincart = [
 ]
 const shoptotal =shoopincart.reduce((acc,item)=>acc+item.price,0)
 console.log(shoptotal)
+
+function one(){
+    console.log( typeof one)
+    return 2+2
+    
+
+}
+    function two(){
+        console.log(two)
+        return 4*4
+}
+let a =(one(), two())
+console.log(a)
