@@ -75,4 +75,7 @@ const userobj={
 }
 console.log(userobj.email)
 console.log(userobj?.fullname.name)
-//
+
+// proto give refcnece 
+
+

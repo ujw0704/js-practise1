@@ -101,23 +101,38 @@ function weight(ball){
 console.log(weight(balls))
 
 //comparing two object
-obj1={
-  name:"ujwal",
-  work:"nothing",
-  country:"india"
-}
+// obj1={
+//   name:"ujwal",
+//   work:"nothing",
+//   country:"india"
+// }
 
-obj2={
-  name:"kushal",
-  work:"project manager",
-  country:"canada",
-}
+// obj2={
+//   name:"kushal",
+//   work:"project manager",
+//   country:"canada",
+// }
 
-function one (obj1, obj2){
-return JSON.stringify(obj1)===JSON.stringify(obj2)
+
+// function one (obj1, obj2){
+// return JSON.stringify(obj1)===JSON.stringify(obj2)
     
+//   }
+//   console.log(one(obj1, obj2))
+const can = {
+  name: "ujwal",
+  mark: 60,
+  values: 30
+};
+
+Object.keys(can).forEach(key => {
+  console.log(can[key]);
+  if (typeof can[key] === 'number') {
+    can[key] += 20;
   }
+  console.log(can[key]);
+});
 
 
 
-console.log(one(obj1, obj2))
+
