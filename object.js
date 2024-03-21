@@ -11,7 +11,7 @@
 let ob= {}
  na.map((key , value)=>{
     ob[na] = value;
-
+//   give referance copy
 })
 console.log(ob)
 
@@ -19,6 +19,7 @@ const array = ['a', 'b', 'c'];
 const object = {};
 array.forEach((element, index) => {
     object[element] = index;
+    //change the arry
 });
 const array1 = ['a', 'b', 'c'];
 const object1 = array1.reduce((acc, curr, index) => {
@@ -34,9 +35,9 @@ array2.forEach((element, index) => {
 });
 
 // if u want to merge data of arry object u can use object .assign() method or Object.assign({},object1,object2);
-// const array4 = [{ key: 'a', value: 1 }, { key: 'b', value: 2 }, { key: 'c', value: 3 }];
-// const object4 = Object.assign({}, ...array4.map(item => ({ [item.key]: item.value })));
-// console.log(object4)
+const array4 = [{ key: 'a', value: 1 }, { key: 'b', value: 2 }, { key: 'c', value: 3 }];
+const object4 = Object.assign({}, ...array4.map(item => ({ [item.key]: item.value })));
+console.log(object4)
 
 // if you have an array of key-value pairs, you can use Object.fromEntries() directly to convert it into an object.
 
@@ -46,6 +47,8 @@ array2.forEach((element, index) => {
 
 // object.fromEntries(iterable) method is used to create an object from a given iterable from give array whih give key and value 
 // const array5 = [['a', 1], ['b', 2], ['c', 3]];
+
+
 // const object5 = Object.fromEntries(array5);//output {a:1 , b:2, c:3}
 
 

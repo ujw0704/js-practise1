@@ -129,10 +129,27 @@ Object.keys(can).forEach(key => {
   console.log(can[key]);
   if (typeof can[key] === 'number') {
     can[key] += 20;
+
   }
   console.log(can[key]);
 });
 
 
 
+// splice
+let wrd =["ujwal", "kushal", "sajal"]
+wrd.forEach((value ,index, arry)=>{
+  arry[index] =value.substring(1)
+
+})
+console.log(wrd)
+
+
+let num = [1, 2, 3, 4, 5]
+num.forEach((value ,index, arry)=>{
+  arry[index]= value
+
+ console.log(num.splice(1))
+
+})
 
