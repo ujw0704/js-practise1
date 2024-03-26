@@ -46,3 +46,8 @@ console.log(text)
 // if i want to add string behined the number
 let pad = text.padEnd(6,"hello")
 console.log(pad)
+
+console.log(1!==true) // true
+console.log(1!=true)// false
+
+console.log(NaN!==NaN)// true
