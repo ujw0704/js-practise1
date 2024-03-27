@@ -21,3 +21,15 @@ let userTwo = Userone
 
 
 // now we have delraed a variable but  the data flow is comming fron heap which is non premative data so it will changes in orginal memory
+const mysmb = Symbol("key")
+const onj= {
+    name :"ujwal",
+    age :"20",
+    place :"darjeeling",
+    [mysmb]:"key"
+}
+
+console.log(onj.name)
+console.log(onj[mysmb])
+
+
