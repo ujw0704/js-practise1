@@ -33,3 +33,11 @@ console.log(onj.name)
 console.log(onj[mysmb])
 
 
+let aee = ["ujwal", "kushal", "sajal"]
+
+let r = aee.join().substring(1).replace(1, "k")
+console.log(r)
+
+
+
+
