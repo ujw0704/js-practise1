@@ -39,5 +39,12 @@ let r = aee.join().substring(1).replace(1, "k")
 console.log(r)
 
 
+// / Blastoff countdown
+console.log(3); // Engines are getting ready
+console.log(2); // Buckle your seatbelts
+console.log(1); // Initiating launch sequence
+// Lift off!
+
+
 
 
