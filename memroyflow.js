@@ -52,9 +52,23 @@ const flow = {
     class:"12"
 
 }
-const newObject = Object.fromEntries([['name', flow.name]]);
+const newObject = Object.fromEntries([['name', flow.name]]); //object
 console.log(flow)
+const ar = Object.entries(['name', flow.name])// array
+console.log(ar)
 
+if(Object.keys(flow)!=ar.length){
+    console.log("true")
+}else{
+    console.log("false")
+}
+ let total = [40,50,70,90,60]
 
+let sum = total.reduce((accumulator,current)=>accumulator+current,0) // when we pass number we give 0
+console.log(sum)
+
+let s = ["ujwal","sajal","kushal"]
+let h = s.reduce((accumulator, current)=>accumulator + current," ")// when we pass string we use ""
+console.log(h)
 
 
