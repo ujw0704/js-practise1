@@ -72,3 +72,9 @@ let h = s.reduce((accumulator, current)=>accumulator + current," ")// when we pa
 console.log(h)
 
 
+// fetch is a methods help us to fetch response in javascript n retrun promise in javascript  and it also help yuou to understand how it help us to tackle promises
+
+fetch("")
+
+
+
