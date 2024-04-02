@@ -13,6 +13,8 @@ document.addEventListener("DOMContentLoaded", function() {
         element.style.backgroundColor = "blue"
         
     });
-    
+     // if want to use node list use foreach
     // Change the color of the first <li> element to green
+
+    //if u want to covernt html or and thing we can use ARRAY.FROM()
 });
