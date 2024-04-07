@@ -40,3 +40,5 @@ console.log(parent.lastElementChild)
 const day = document.querySelector(".day")
 console.log(day.parentElement)
 console.log(day.nextElementSibling.innerText)
+
+console.log(parent.childNodes);
