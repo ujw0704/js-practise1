@@ -33,3 +33,9 @@ const  n = [1, 2, 3, 4, 5]
     console.log(np)
     }
 
+    const numbers = [10, 20, 30, 40, 50];
+
+    const average = numbers.reduce((total, current) => total + current, 0) / numbers.length;
+    
+    console.log(average); // Output: 30
+    
