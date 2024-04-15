@@ -14,6 +14,13 @@
 
 
 
+const n = [1, 2, 3, 4, 5];
+
+if (n.length < 4) {
+    const slicedArray = n.slice(-3);
+    // Now you can do something with the slicedArray
+    console.log(slicedArray);
+}
 
 
 
