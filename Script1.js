@@ -42,3 +42,14 @@ console.log(day.parentElement)
 console.log(day.nextElementSibling.innerText)
 
 console.log(parent.childNodes);
+
+const parent = document.querySelector(".parent");
+console.log(parent);
+
+// Loop through each child element and log its innerHTML
+for (let i = 0; i < parent.children.length; i++) {
+    console.log(parent.children[i].innerHTML);
+}
+
+// Set the color of the second child to black
+parent.children[1].style.color = "black";

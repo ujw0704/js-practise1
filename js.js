@@ -2,7 +2,7 @@
 
 
 
-//  const bigword = "The  big dog jump out of the wall"
+ const bigword = "The  big dog jump out of the wall"
 
 
 // let word =3
