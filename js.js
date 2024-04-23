@@ -5,8 +5,8 @@
  const bigword = "The  big dog jump out of the wall"
 
 
-// let word =3
-// let newword = ""
+let word =3
+let newword = ""
 
 //  function wrd(wrds){
 //      wrds = wrds.split(" ")
