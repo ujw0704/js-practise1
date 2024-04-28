@@ -8,17 +8,17 @@
 let word =3
 let newword = ""
 
-//  function wrd(wrds){
-//      wrds = wrds.split(" ")
-//     for(let i = 0 ;i< wrds.length;i++){
-//         if(wrds[i].length===word){
-//             newword += wrds[i]+ " "
+ function wrd(wrds){
+     wrds = wrds.split(" ")
+    for(let i = 0 ;i< wrds.length;i++){
+        if(wrds[i].length===word){
+            newword += wrds[i]+ " "
 
-//         }
-//         return newword
-//     }
-//  }
-//  console.log(wrd(bigword))
+        }
+        return newword
+    }
+ }
+ console.log(wrd(bigword))
 
 
 //  // what will be the value in this
