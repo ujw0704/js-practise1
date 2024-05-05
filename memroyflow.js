@@ -6,9 +6,9 @@
  let  anothername =  myname
  anothername = "vikas"
 
- // now it changes to an another name but  my name which is orginal name is the same as orginal
+//  now it changes to an another name but  my name which is orginal name is the same as orginal
 
-//heap
+// heap
 
 let Userone = {
     email:"username@gmail.com",

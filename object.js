@@ -1,11 +1,11 @@
-// const mysmb = Symbol("key")
-// const obj ={
-//     name : "John",
-//    [mysmb]:"mykey"
-// }
-// console.log( typeof obj[mysmb]);
-//  // {name: "John", symbol.
-//  console.log(obj)
+const mysmb = Symbol("key")
+const obj ={
+    name : "John",
+   [mysmb]:"mykey"
+}
+console.log( typeof obj[mysmb]);
+ // {name: "John", symbol.
+ console.log(obj)
 
  let na =["ram", "shyama", "kamal"]
 let ob= {}
@@ -62,7 +62,7 @@ console.log(object4)
 // console.log(merged); // Output: { a: 1, b: 3, c: 4 }
 
 // Object.entries(): This method returns an array of a given object's own enumerable string-keyed property [key, value] pairs. Essentially, it extracts the key-value pairs of an object into an array. Here's a simple example
-const obj = { a: 1, b: 2, c: 3 };
+const obj1 = { a: 1, b: 2, c: 3 };
 console.log(Object.entries(obj))
 ; // Output: [ ['a', 1], ['b', 2], ['c', 3] ]
 let o = Object.entries(obj).flat(Infinity);
