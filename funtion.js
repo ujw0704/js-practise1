@@ -19,21 +19,21 @@ console.log(shopingcart(5,6))
     
 // };
 
-// function objdetails({ alldata }) {
-//     console.log("Please print name:");
-//     if (alldata === "") {
-//         console.log("Please enter your name");
-//     } else {
-//         console.log(`Name is ${alldata.name}`);
-//         if (alldata.age === undefined) {
-//             console.log("Please enter your age");
-//         } else {
-//             console.log(`Age is ${alldata.age}`);
-//         }
-//     }
-// }
+function objdetails({ alldata }) {
+    console.log("Please print name:");
+    if (alldata === "") {
+        console.log("Please enter your name");
+    } else {
+        console.log(`Name is ${alldata.name}`);
+        if (alldata.age === undefined) {
+            console.log("Please enter your age");
+        } else {
+            console.log(`Age is ${alldata.age}`);
+        }
+    }
+}
 
-// objdetails({ alldata: user }); // Pass the user object as an argument to objdetails
+objdetails({ alldata: user }); // Pass the user object as an argument to objdetails
 
 
 const arr =[1,2, 3, 4, 5];
