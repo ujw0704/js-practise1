@@ -11,13 +11,13 @@ console.log(shopingcart(5,6))
 
 
 // passing object into function
-// const user = {
-//     name: "ujwal",
-//     age: 23,
-//     country: "india",
-//     price: "199"
+const user = {
+    name: "ujwal",
+    age: 23,
+    country: "india",
+    price: "199"
     
-// };
+};
 
 function objdetails({ alldata }) {
     console.log("Please print name:");
