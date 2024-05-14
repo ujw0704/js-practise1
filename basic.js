@@ -32,7 +32,7 @@ let state; // undfine output typeof(unefine)
 
 
   
-//   let islogIN= 1
+  let islogIN= 1
   let empty ="" // if convert empty string to  boolen it will be false
 //                 // but in JS it will be
      let c  = Boolean(isLOGIN) // it will give us boolean
