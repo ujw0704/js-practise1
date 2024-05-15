@@ -38,5 +38,5 @@ let state; // undfine output typeof(unefine)
      let c  = Boolean(isLOGIN) // it will give us boolean
      console.log(c)
     console.log (Boolean(empty))
-//   let lgin = Boolean(islogIN)
-//   console.log(lgin);
+  let lgin = Boolean(islogIN)
+  console.log(lgin);
