@@ -108,7 +108,7 @@ function  filterNum(numb){
     
     let newnumb  = []
     for(let i = 0; i<numb.length;i++){
-        // console.log(numb[i])
+        console.log(numb[i])
         if(numb[i] % 2 == 0 ){
             newnumb .push(numb[i]);
 

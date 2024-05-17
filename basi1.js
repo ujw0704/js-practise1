@@ -199,14 +199,14 @@ console.log(nsstr.length);
 
 
 let arry =[1,2,3,'hello',true];
-// console.log(arry)
-//  arry.pop()
-//  console.log(arry)
-//  arry.push("ujwal")
-//  console.log(arry)
-//  arry.shift()
-//  arry.unshift(5)
-//  console.log(arry)
+console.log(arry)
+ arry.pop()
+ console.log(arry)
+ arry.push("ujwal")
+ console.log(arry)
+ arry.shift()
+ arry.unshift(5)
+ console.log(arry)
 arry.includes(1)
 console.log(arry)
 let newarry = arry.join("," )
