@@ -4,13 +4,13 @@
 // });
 
  
-// document.addEventListener("DOMContentLoaded", function() {
-//     const myul = document.querySelectorAll("#oh");
-//     console.log(myul);
-//     // const myLI = myul.getElementsByTagName("li"); // Get all <li> elements within the <ul>
-//     // myLI[0].style.color = "red";
-//     myul.forEach(element => {
-//         element.style.backgroundColor = "blue"
+document.addEventListener("DOMContentLoaded", function() {
+    const myul = document.querySelectorAll("#oh");
+    console.log(myul);
+    // const myLI = myul.getElementsByTagName("li"); // Get all <li> elements within the <ul>
+    // myLI[0].style.color = "red";
+    myul.forEach(element => {
+        element.style.backgroundColor = "blue"
         
 //     });
      // if want to use node list use foreach
