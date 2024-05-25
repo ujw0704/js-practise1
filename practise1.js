@@ -100,12 +100,12 @@ function weight(ball){
 
 console.log(weight(balls))
 
-//comparing two object
-// obj1={
-//   name:"ujwal",
-//   work:"nothing",
-//   country:"india"
-// }
+// comparing two object
+obj1={
+  name:"ujwal",
+  work:"nothing",
+  country:"india"
+}
 
 // obj2={
 //   name:"kushal",

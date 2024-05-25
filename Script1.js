@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 const parent = document.querySelector(".parent");
 console.log(parent);
-// console.log(parent.children);
+console.log(parent.children);
 
 // Loop through each child element and log it
 for (let i = 0; i < parent.children.length; i++) {
