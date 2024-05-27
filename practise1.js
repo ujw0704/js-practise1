@@ -107,11 +107,11 @@ obj1={
   country:"india"
 }
 
-// obj2={
-//   name:"kushal",
-//   work:"project manager",
-//   country:"canada",
-// }
+obj2={
+  name:"kushal",
+  work:"project manager",
+  country:"canada",
+}
 
 
 // function one (obj1, obj2){
