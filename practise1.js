@@ -114,11 +114,11 @@ obj2={
 }
 
 
-// function one (obj1, obj2){
-// return JSON.stringify(obj1)===JSON.stringify(obj2)
+function one (obj1, obj2){
+return JSON.stringify(obj1)===JSON.stringify(obj2)
     
-//   }
-//   console.log(one(obj1, obj2))
+  }
+  console.log(one(obj1, obj2))
 const can = {
   name: "ujwal",
   mark: 60,
