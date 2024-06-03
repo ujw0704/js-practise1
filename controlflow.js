@@ -17,7 +17,7 @@ if(isuserLoggin){
         const isLoggin= false
         const email =true
         const google =false
-        // isLoggin?"islogin":"!isloggin"
+        isLoggin?"islogin":"!isloggin"
 
         isLoggin ? (email ? "isLoggin":"!isLoggin"||google?"isLoggin":"!isLo0gin"):"!isLoogin"
         console.log(islogn(isLoggin))
