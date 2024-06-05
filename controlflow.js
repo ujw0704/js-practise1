@@ -41,5 +41,48 @@ if(isuserLoggin){
 
 
     
+//exchanging values
+
+let a = 10
+let b = 2
+   a = a+b
+  b = a-b 
+  a = b-a
+console.log(a)
+console.log(b)
+
+let n = 5
+let j = 8 
+[j,n]= [n,j]
+console.log(n, j)
 
 
+ // fizz buzz
+let fizz = (n)=>{
+    for(let i = 1 ;i<n; i++){
+        if(i%3===0 && i%5 ===0){
+            console.log("fizzbuzz")
+        }
+            else if(i%3 ===0){
+                console.log("fizz")
+
+            }else if(i%5===0){
+                console.log("buzz")
+            }else{
+                console.log("throw error")
+            }
+
+
+    }
+ 
+
+}
+fizz(20)
+
+
+function cap(str){
+    const caps =  str.charAt(0).toUpperCase()+str.slice(1)
+    return caps
+}
+  
+ console.log(cap("ujwal"))

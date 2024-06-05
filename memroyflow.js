@@ -1,7 +1,8 @@
 // heap and stack 
+//number boolen string bigint and other will store in stack
 // stack is premative data type  in  stack it give the  copy of  orginal data where as 
 // heap is a non-premative data type in heap it  changes the data  from orginal  object or array
-
+// array function object will have a copy refrence
  let myname = "ujwal"
  let  anothername =  myname
  anothername = "vikas"
