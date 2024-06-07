@@ -173,26 +173,26 @@ console.log(string(strings))
 
 //Write a function that sorts an array of numbers in ascending order. 
 
-// let number =[1, 2, 4, 5, 7, 8, 9, 10 , 12, 7]
+let number =[1, 2, 4, 5, 7, 8, 9, 10 , 12, 7]
 
-// for(let i=0;i<number.length;i++){
+for(let i=0;i<number.length;i++){
 
-//     for(let j = i + 1; j < number.length; j++){
-//         // console.log(number[i])
-//         if(number[i]>number[j]){
-//             // console.log(number[i]>number[j])
-//             let newaary=number[i]
-//              number[i]=number[j]
-//              number[j]= newaary
+    for(let j = i + 1; j < number.length; j++){
+        // console.log(number[i])
+        if(number[i]>number[j]){
+            // console.log(number[i]>number[j])
+            let newaary=number[i]
+             number[i]=number[j]
+             number[j]= newaary
 
                
-//         }
+        }
 
-//         }
-//     }
-//     console.log(numbers)
-//     let newno = number.flat(number)
-//     console.log(newno)
+        }
+    }
+    console.log(numbers)
+    let newno = number.flat(number)
+    console.log(newno)
 
 
 
