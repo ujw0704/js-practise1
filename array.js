@@ -18,9 +18,9 @@ console.log(anothername)
  const arry4 = [1, 2 ,3, [4,5, 6] ,0,[7, 8, 9]]
  const  arrx = arry4.flat(Infinity)
  console.log(arrx)
-// const arry4 = [1, 2, 3, [4, 5, 6], 0, [7, 8, 9]];
-// const arrx = arry4.flat(Infinity);
-// console.log(arrx);
+const arry5 = [1, 2, 3, [4, 5, 6], 0, [7, 8, 9]];
+const arrx1 = arry5.flat(Infinity);
+console.log(arrx1);
 
 // array isarray give boolen value 
 console.log(Array.isArray(arry4));
