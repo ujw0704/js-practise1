@@ -28,6 +28,7 @@ let newword = ""
     c= "default",
     d= "default",
     e= "default",
+    f = "default"
 
  }={
     a:null,
