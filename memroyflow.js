@@ -6,7 +6,7 @@
  let myname = "ujwal"
  let  anothername =  myname
  anothername = "vikas"
-
+ console.log(anothername)
 //  now it changes to an another name but  my name which is orginal name is the same as orginal
 
 // heap
