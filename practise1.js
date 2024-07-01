@@ -37,7 +37,7 @@ function toTitleCase(str) {
   function news(rev){
   let replace = ""
     for(let i=rev.length-1;i>= 0;i--){
-        // console.log(rev[i])
+        console.log(rev[i])
        replace += rev[i]
     }
  
