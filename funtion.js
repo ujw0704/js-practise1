@@ -77,8 +77,8 @@ function flatten(numbers) {
 
 let n = "hello"
 
-// let reverse = n.split(" ").reverse(n).join(" ")
-// console.log(reverse)
+let reverse = n.split(" ").reverse(n).join(" ")
+console.log(reverse)
    
 function  revers(strr) {
     let ne= ""
