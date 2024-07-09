@@ -180,7 +180,7 @@ for(let i=0;i<number.length;i++){
     for(let j = i + 1; j < number.length; j++){
         // console.log(number[i])
         if(number[i]>number[j]){
-            // console.log(number[i]>number[j])
+            console.log(number[i]>number[j])
             let newaary=number[i]
              number[i]=number[j]
              number[j]= newaary
