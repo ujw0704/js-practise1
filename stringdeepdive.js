@@ -4,6 +4,6 @@ nam = "ujwal"
 
 
 //  const rename ;
-//  rename = "ujwal"
+ rename = "ujwal"
 
  // we cannot decleared const  n let can be reassign n re declared
