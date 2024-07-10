@@ -29,13 +29,13 @@ let newword = ""
     d= "default",
     e= "default",
     f = "default"
-
- }={
+}={
     a:null,
     b:undefined,
     c: false,
     d:0
- }
+}
+console.log(a)
  console.log(a,b, c,d,e)
 
 //  console(5+true) explicate changes in js 
