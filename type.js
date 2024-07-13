@@ -24,6 +24,7 @@ console.log(typeof(score))
   console.log(b)
 
   let som = 455
+  console.log(som)
   let str = String(som)
   console.log(str)
   console.log(typeof str)
