@@ -53,7 +53,7 @@ console.log(null>=0)// true
 // null is true is bcuse is equal to 0
 
 let p =10 ,m = 10 ,v =10
-
+console.log(p)
 if(p==m==v){
     console.log("hello")
 // a=b true  value+1 +10 11 = 10 false so it bye
