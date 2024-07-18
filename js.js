@@ -54,6 +54,7 @@ console.log(null>=0)// true
 
 let p =10 ,m = 10 ,v =10
 console.log(p)
+console.log(m)
 if(p==m==v){
     console.log("hello")
 // a=b true  value+1 +10 11 = 10 false so it bye
