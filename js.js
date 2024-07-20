@@ -51,7 +51,7 @@ console.log(null>0)// false
 console.log(null>=0)// true
 // is given true when is compared with undfined
 // null is true is bcuse is equal to 0
-
+console.log("ujwal")
 let p =10 ,m = 10 ,v =10
 console.log(p)
 console.log(m)
